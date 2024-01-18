@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "moduleResolution": "node",
+    "module": "es2022",
+    "target": "es2022",
+    "sourceMap": false,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "allowArbitraryExtensions": true,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // his one is for preventing the typescript errors while using @Inject()
+    "strictPropertyInitialization": false,
+
+    "typeRoots": [
+      "./types",
+        "node_modules/@type"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/types/**/*"
+  ]
+}

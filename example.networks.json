@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Ethereum",
+        "type": "Ethereum",
+        "endpoint": "<ws endpoint>",
+        "confirmation_count": 42,
+        "contract_address": "<contract address>"
+    }
+]
